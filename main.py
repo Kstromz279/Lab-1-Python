@@ -13,4 +13,4 @@ elif unit == "F" or unit == "f" :
   cel = (degree-32)/1.8
   print(f"{degree}° in Fahrenheit is equivalent to {cel}° Celsius.")
 else : 
-  print(f"Invalid unit({degree}).")
+  print(f"Invalid unit({unit}).")
