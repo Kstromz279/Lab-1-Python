@@ -8,7 +8,7 @@ degree = float(degree)
 unit = input("Enter unit in F/f or C/c: ")
 if unit == "C" or unit == "c": 
   fah = (degree * 1.8) +32 
-  print(f"{degree}° in Celsius is equivalent to {fah}° in Fahrenheit.") 
+  print(f"{degree}° in Celsius is equivalent to {fah}° Fahrenheit.") 
 elif unit == "F" or unit == "f" : 
   cel = (degree-32)/1.8
   print(f"{degree}° in Fahrenheit is equivalent to {cel}° Celsius.")
